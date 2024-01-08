@@ -1,0 +1,15 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+@layer base {
+    :root {
+      --f-blue-2: 244, 246, 245;
+      --f-yellow-2: 235, 217, 107;
+      --f-black-2: 25, 24, 24;
+      --f-gray-2: 127, 127, 127;
+      --f-brown-2:35, 19, 0;
+      --f-white-2: 255, 252, 248;
+    }
+  }
