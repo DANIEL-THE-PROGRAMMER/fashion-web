@@ -4,16 +4,28 @@ import Link from "next/link";
 export const PayDay = () => {
   return (
     <div className="gradient">
-      <div className="flex">
-        <div className="w-[991.425px] min-h-[968px] relative">
+      <div className="flex justify-center">
+        <div
+          style={{ width: "calc(100% - 991.425px)" }}
+          className="min-h-[968px] relative"
+        >
           <Image
             src="/assets/image 12.png"
             alt="imag12"
-            fill={true}
+            width={0}
+            height={0}
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "scale-down",
+            }}
             sizes="100%"
           />
         </div>
-        <div className="basis-[932.94px] grow pt-[140px] pr-[200px] pl-[90px] pb-[155px] flex flex-col items-start">
+        <div
+          style={{ width: "calc(100% - 932.94px)" }}
+          className="pt-[140px] pr-[200px] pl-[90px] pb-[155px] flex flex-col items-start justify-center"
+        >
           <div className="font-semibold font-poppins w-[541px] min-h-[130px] flex relative items-center">
             <div className="absolute w-full h-full bg-white rotate-[-2.004deg]"></div>
             <span className="h-[100%] relative z-10 flex items-center pl-[26px] font-extrabold leading-[137px] text-[111.60px]">

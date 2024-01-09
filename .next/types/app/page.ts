@@ -1,4 +1,4 @@
-// File: /Users/danieltheprogrammer/youtube_speedcode/shop-web/app/page.tsx
+// File: /Users/danieltheprogrammer/youtube_speedcode/fashion-web/app/page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

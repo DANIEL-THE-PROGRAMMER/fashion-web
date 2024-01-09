@@ -34,7 +34,12 @@ export const Download = () => {
               </div>
             </div>
             <div className="z-10 w-[527px] h-[920px] absolute translate-x-[-50%] translate-y-[-50%] top-[50%] left-[50%]">
-                <Image src="/assets/Mobile app.png" alt="mobile app" fill={true} sizes="100%" />
+              <Image
+                src="/assets/Mobile app.png"
+                alt="mobile app"
+                fill={true}
+                sizes="100%"
+              />
             </div>
           </div>
         </div>
