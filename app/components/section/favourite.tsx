@@ -5,7 +5,7 @@ export const Favourite = () => {
   return (
     <Container>
     <div className="pt-[190px] pb-[220px]">
-      <div className="text-black text-[48px] font-extrabold font-poppins leading-[50px] tracking-[2.88px] mb-[118px] relative min-h-[41px] inline-block">
+      <div className="text-black text-[32px] md:text-[48px] font-extrabold font-poppins leading-[50px] tracking-[2.88px] mb-[118px] relative min-h-[41px] inline-block">
         <span className="z-10 relative">Young’s Favourite</span>
         <span className="absolute right-0 -bottom-[5px] z-0">
           <svg
@@ -22,9 +22,13 @@ export const Favourite = () => {
           </svg>
         </span>
       </div>
-      <div className="flex gap-[48px]">
+      <div className="md:flex hidden flex-col md:flex-row gap-[48px]">
         <ArrivalCard image="/assets/s (7).png" name="Trending on instagram" height={575} />
         <ArrivalCard image="/assets/s (6).png" name="All Under $40" height={575} />
+      </div>
+      <div className="flex md:hidden flex-col md:flex-row gap-[48px]">
+        <ArrivalCard image="/assets/s (7).png" name="Trending on instagram" height={275} />
+        <ArrivalCard image="/assets/s (6).png" name="All Under $40" height={275} />
       </div>
     </div>
     </Container>

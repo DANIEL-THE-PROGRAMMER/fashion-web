@@ -5,12 +5,12 @@ export const Footer = () => {
   return (
     <div className="bg-black">
       <Container>
-        <div className="pt-[125px] pb-[147px] flex justify-between">
+        <div className="pt-[125px] pb-[147px] flex justify-between flex-col md:flex-row">
           <div className="flex flex-col gap-y-[32px]">
             <div className="font-poppins text-[40px] font-extrabold tracking-[1.2px] text-white">
               <span>FASHION</span>
             </div>
-            <div className="font-poppins text-[24px] tracking-[0.48px] leading-[40px] w-[415px] text-[#8E8E8E]">
+            <div className="font-poppins text-[24px] tracking-[0.48px] leading-[40px] md:w-[415px] text-[#8E8E8E]">
               <span>Complete your style with awesome clothes from us.</span>
             </div>
             <div className="flex gap-[14px]">
@@ -48,7 +48,7 @@ export const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="flex gap-[188px]">
+          <div className="flex flex-col md:flex-row gap-[100px] md:gap-[188px] mt-[100px] md:mt-0">
             <div className="flex flex-col gap-y-[32px]">
               <div className="text-[#D9D9D9] text-[24px] leading-[40px] tracking-[0.48px]">
                 <span>Company</span>

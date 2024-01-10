@@ -5,7 +5,7 @@ export const NewArrivals = () => {
   return (
     <Container>
       <div className="pt-[60px] pb-[190px]">
-        <div className="text-black text-[48px] font-extrabold font-poppins leading-[50px] tracking-[2.88px] mb-[118px] relative min-h-[41px] inline-block">
+        <div className="text-black text-[32px] md:text-[48px] font-extrabold font-poppins leading-[50px] tracking-[2.88px] mb-[118px] relative min-h-[41px] inline-block">
           <span className="z-10 relative">NEW ARRIVALS</span>
           <span className="absolute right-0 -bottom-[5px] z-0">
             <svg
@@ -22,7 +22,7 @@ export const NewArrivals = () => {
             </svg>
           </span>
         </div>
-        <div className="flex gap-[90px]">
+        <div className="flex flex-col md:flex-row gap-[90px]">
           <ArrivalCard
             name="Hoodies & Sweetshirt"
             image="/assets/Rectangle 20.png"

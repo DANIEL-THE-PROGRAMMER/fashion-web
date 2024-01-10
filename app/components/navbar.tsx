@@ -6,7 +6,7 @@ export const NavBar = () => {
   return (
     <Container>
       <div className="pt-[46px] pb-[56px] flex justify-between items-center">
-        <div className="relative w-[237px] h-[60px]">
+        <div className="relative w-[137px]  md:w-[237px] h-[40px] md:h-[60px]">
           <Image
             src="/assets/logonav.png"
             alt="logo"
@@ -14,7 +14,7 @@ export const NavBar = () => {
             sizes="100%"
           />
         </div>
-        <div className="">
+        <div className="hidden md:flex">
           <ul className="text-black2 font-poppins text-[22px] font-medium tracking-[0.22px] flex gap-[65px] items-center">
             <li className="">
               <Link href="/">CATALOGUE</Link>

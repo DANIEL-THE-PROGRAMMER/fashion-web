@@ -11,12 +11,12 @@ export const ArrivalCard = ({
 }) => {
   return (
     <div className="grow basis-[484px]">
-      <div className="h-[784px] relative" style={{ height: height }}>
+      <div className="h-[484px] md:h-[784px] relative" style={{ height: height }}>
         <Image className="rounded-[20px]"  src={`${image}`} alt="" sizes="100%" fill={true} />
       </div>
       <div className="mt-[28px] flex items-center justify-between">
         <div className="">
-          <div className="text-[32px] font-poppins font-medium leading-[50px] tracking-[-1.28px]">
+          <div className="text-[24px] md:text-[32px] font-poppins font-medium leading-[50px] tracking-[-1.28px]">
             <span>{name}</span>
           </div>
           <div className="text-gray2 font-poppins text-[24px] leading-[50px] font-medium tracking-[-0.96px]">
