@@ -1,19 +1,44 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
+html {
+  scroll-behavior: smooth;
+}
 
-.gradient{
-  background: linear-gradient(1deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+.gradient {
+  background: linear-gradient(
+    1deg,
+    #e0c340 0.13%,
+    #dfc23e 3.97%,
+    #e1c441 7.2%,
+    #e3c743 10.13%,
+    #e4c542 12.98%,
+    #e6c744 15.99%,
+    #e7c845 19.52%,
+    #e5c643 23.96%,
+    #e6c945 30.43%,
+    #e3c743 36.49%,
+    #e9ca48 42.49%,
+    #edce49 49.35%,
+    #f0d44c 55.42%,
+    #f4d84f 61.43%,
+    #f6da52 65.74%,
+    #f7db53 72.23%,
+    #f9dd55 77.43%,
+    #f9df56 83.84%,
+    #fae157 91.52%,
+    #f9df56 97.87%
+  );
 }
 
 @layer base {
-    :root {
-      --f-blue-2: 244, 246, 245;
-      --f-yellow-2: 235, 217, 107;
-      --f-black-2: 25, 24, 24;
-      --f-gray-2: 127, 127, 127;
-      --f-brown-2:35, 19, 0;
-      --f-white-2: 255, 252, 248;
-    }
+  :root {
+    --f-blue-2: 244, 246, 245;
+    --f-yellow-2: 235, 217, 107;
+    --f-black-2: 25, 24, 24;
+    --f-gray-2: 127, 127, 127;
+    --f-brown-2: 35, 19, 0;
+    --f-white-2: 255, 252, 248;
   }
+}

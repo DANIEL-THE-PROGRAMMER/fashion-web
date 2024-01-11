@@ -20,10 +20,10 @@ export const NavBar = () => {
               <Link href="/">CATALOGUE</Link>
             </li>
             <li className="">
-              <Link href="/">FASHION</Link>
+              <a href="#fashion">FASHION</a>
             </li>
             <li className="">
-              <Link href="/">FAVOURITE</Link>
+              <a href="#favourite">FAVOURITE</a>
             </li>
             <li className="">
               <Link href="/">LIFESTYLE</Link>
