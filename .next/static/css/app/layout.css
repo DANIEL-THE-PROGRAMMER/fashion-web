@@ -690,9 +690,6 @@ video {
 .w-\[52px\] {
   width: 52px;
 }
-.w-\[541px\] {
-  width: 541px;
-}
 .w-full {
   width: 100%;
 }
@@ -883,14 +880,8 @@ video {
 .pl-\[27px\] {
   padding-left: 27px;
 }
-.pl-\[90px\] {
-  padding-left: 90px;
-}
 .pr-\[10px\] {
   padding-right: 10px;
-}
-.pr-\[200px\] {
-  padding-right: 200px;
 }
 .pt-\[125px\] {
   padding-top: 125px;
@@ -921,9 +912,6 @@ video {
 }
 .font-poppins {
   font-family: var(--font-poppins);
-}
-.text-\[111\.60px\] {
-  font-size: 111.60px;
 }
 .text-\[22px\] {
   font-size: 22px;
@@ -1059,7 +1047,6 @@ video {
 .gradient{
   background: linear-gradient(1deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
 }
-
 
 @media (min-width: 768px) {
 
